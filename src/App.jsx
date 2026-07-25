@@ -5,6 +5,8 @@ import Form from './Components/Form'
 import Robot from './Components/Robot'
 import Card from './Components/Card'
 import Usestate from './Components/Usestate'
+import Test from './Components/Test'
+import Cardtest from './Components/Cardtest'
 
 const App = () => {
   return (
@@ -17,7 +19,9 @@ const App = () => {
       <Robot name="Iron Man" color="red" />
       <Robot name="Tursnoy" color="pink" />
       <Robot name="Baxtiboy" color="black" /> */}
-      <Usestate />
+      {/* <Usestate /> */}
+      {/* <Test /> */}
+      <Cardtest />
     </div>
   )
 }
