@@ -7,6 +7,8 @@ import Card from './Components/Card'
 import Usestate from './Components/Usestate'
 import Test from './Components/Test'
 import Cardtest from './Components/Cardtest'
+import List from './Components/List'
+import Movies from './Components/Movies'
 
 const App = () => {
   return (
@@ -21,7 +23,9 @@ const App = () => {
       <Robot name="Baxtiboy" color="black" /> */}
       {/* <Usestate /> */}
       {/* <Test /> */}
-      <Cardtest />
+      {/* <Cardtest /> */}
+      {/* <List /> */}
+      <Movies />
     </div>
   )
 }
