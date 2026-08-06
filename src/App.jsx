@@ -25,7 +25,9 @@ const App = () => {
       {/* <Test /> */}
       {/* <Cardtest /> */}
       {/* <List /> */}
-      <Movies />
+      {/* <Movies /> */}
+      <Navbar />
+      <Card />
     </div>
   )
 }
