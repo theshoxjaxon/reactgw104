@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = (props) => {
     return (
-        <div className="aura aura-rainbow">
+        <div className="aura aura-rainbow" style={{ background: white }}>
             <div className="card w-96 bg-base-100 shadow-sm">
                 <div className="card-body">
                     <span className="badge badge-xs badge-warning">Most Popular</span>
@@ -37,7 +37,7 @@ const Card = (props) => {
                         </li>
                     </ul>
                     <div className="mt-6">
-                        <button className="btn btn-primary btn-block">Subscribe</button>
+                        <button className="btn btn-primary btn-block" onClick={() => { alert('Subscribed!') }}>Subscribe</button>
                     </div>
                 </div>
             </div>

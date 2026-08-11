@@ -9,6 +9,7 @@ import Test from './Components/Test'
 import Cardtest from './Components/Cardtest'
 import List from './Components/List'
 import Movies from './Components/Movies'
+import Welcome from './Components/Welcome'
 
 const App = () => {
   return (
@@ -26,8 +27,11 @@ const App = () => {
       {/* <Cardtest /> */}
       {/* <List /> */}
       {/* <Movies /> */}
-      <Navbar />
-      <Card />
+      {/* <Navbar /> */}
+      {/* <Welcome isLoggedIn={false} /> */}
+
+      <Form />
+      {/* <Card /> */}
     </div>
   )
 }
