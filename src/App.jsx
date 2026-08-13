@@ -6,10 +6,12 @@ import Robot from './Components/Robot'
 import Card from './Components/Card'
 import Usestate from './Components/Usestate'
 import Test from './Components/Test'
-import Cardtest from './Components/Cardtest'
-import List from './Components/List'
-import Movies from './Components/Movies'
-import Welcome from './Components/Welcome'
+// import Cardtest from './Components/Cardtest'
+// import List from './Components/List'
+// import Movies from './Components/Movies'
+// import Welcome from './Components/Welcome'
+// import Formtest from './Components/Formtest'
+import Loading from './Components/Loading'
 
 const App = () => {
   return (
@@ -29,9 +31,10 @@ const App = () => {
       {/* <Movies /> */}
       {/* <Navbar /> */}
       {/* <Welcome isLoggedIn={false} /> */}
-
-      <Form />
+      {/* <Formtest /> */}
+      {/* <Form /> */}
       {/* <Card /> */}
+      <Loading />
     </div>
   )
 }
