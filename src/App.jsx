@@ -12,6 +12,7 @@ import Test from './Components/Test'
 // import Welcome from './Components/Welcome'
 // import Formtest from './Components/Formtest'
 import Loading from './Components/Loading'
+import Todo from './Components/Todo'
 
 const App = () => {
   return (
@@ -34,7 +35,8 @@ const App = () => {
       {/* <Formtest /> */}
       {/* <Form /> */}
       {/* <Card /> */}
-      <Loading />
+      {/* <Loading /> */}
+      <Todo />
     </div>
   )
 }
