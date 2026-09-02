@@ -17,6 +17,7 @@ import Loading from './Components/Loading'
 import Todo from './Components/Todo'
 import Products from './Components/Products'
 import User from './Components/User'
+import Productstest from './Components/Productstest'
 
 const App = () => {
   return (
@@ -67,7 +68,8 @@ const App = () => {
 
       {/* <Products /> */}
 
-      <User />
+      {/* <User /> */}
+      <Productstest />
     </div>
   )
 }
